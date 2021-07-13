@@ -1,0 +1,107 @@
+<!DOCTYPE template>
+<Template>
+
+    <!--
+    **************************************************************************************
+    CLOCK DEVICE BEGIN
+    **************************************************************************************
+    -->
+    <WidgetGroup>
+        <ObjectName>Clock</ObjectName>
+        <Layout>vertical</Layout>
+        <SizePolicy>max,max</SizePolicy>
+        <MaximumSize>110,69</MaximumSize>
+        <Children>
+
+            <Template src="skin:device/clock/border_top.xml"/>
+
+            <WidgetGroup>
+                <ObjectName>Rectangle</ObjectName>
+                <Layout>horizontal</Layout>
+                <SizePolicy>min,max</SizePolicy>
+                <MinimumSize>,45</MinimumSize>
+                <Children>
+
+                    <WidgetGroup><!-- spacer -->
+                        <MinimumSize>20,-1</MinimumSize>
+                        <MaximumSize>20,-1</MaximumSize>
+                    </WidgetGroup>
+
+                    <WidgetGroup>
+                        <SizePolicy>me,min</SizePolicy>
+                        <Layout>vertical</Layout>
+                        <Children>
+                        <Time>
+                            <TooltipId>time</TooltipId>
+                            <ObjectName>Time</ObjectName>
+                            <Size>52f,20f</Size>
+                            <CustomFormat>hh:mm</CustomFormat>
+                        </Time>
+<!--            
+                        <Template src="skin:device/clock/vumeter_latency.xml">
+                            <SetVariable name="TooltipId">audio_latency_usage</SetVariable>
+                            <SetVariable name="group">[Master]</SetVariable>
+                            <SetVariable name="control">audio_latency_usage</SetVariable>
+                        </Template>
+-->
+                        <VuMeter><!-- latency usage -->
+                            <Size>52f,3f</Size>
+                            <TooltipId>audio_latency_usage</TooltipId>
+                            <PathVu>latency_usage_over.svg</PathVu>
+                            <PathBack>latency_usage.svg</PathBack>
+                            <Horizontal>true</Horizontal>
+                            <PeakHoldSize>5</PeakHoldSize>
+                            <PeakHoldTime>1000</PeakHoldTime>
+                            <PeakFallTime>100</PeakFallTime>
+                            <PeakFallStep>1</PeakFallStep>
+                            <Connection>
+                            <ConfigKey>[Master],audio_latency_usage</ConfigKey>
+                            </Connection>
+                        </VuMeter><!-- /latency usage -->
+
+                        </Children>
+                    </WidgetGroup>
+
+                    <Battery>
+                        <ObjectName>Battery</ObjectName>
+                        <TooltipId>battery</TooltipId>
+                        <Size>24,24</Size>
+                        <SizePolicy>f,f</SizePolicy>
+                        <PixmapCharged scalemode="STRETCH_ASPECT">button/ic_battery_charged_48px.svg</PixmapCharged>
+                        <NumberStates>8</NumberStates>
+                        <PixmapsCharging scalemode="STRETCH_ASPECT">button/ic_battery_charging_%1_48px.svg</PixmapsCharging>
+                        <PixmapsDischarging scalemode="STRETCH_ASPECT">button/ic_battery_discharging_%1_48px.svg</PixmapsDischarging>
+                    </Battery>
+
+                    <WidgetGroup><!-- spacer -->
+                        <MinimumSize>10,-1</MinimumSize>
+                        <MaximumSize>10,-1</MaximumSize>
+                    </WidgetGroup>
+
+                </Children>
+            </WidgetGroup>
+
+            <Template src="skin:device/clock/border_bottom.xml"/>
+
+        </Children>
+        <Connection>
+            <ConfigKey persist="true">[Clock],show_clock</ConfigKey>
+            <BindProperty>visible</BindProperty>
+        </Connection>
+    </WidgetGroup>
+
+    <WidgetGroup><!-- margin-right -->
+        <MinimumSize>4,-1</MinimumSize>
+        <MaximumSize>4,-1</MaximumSize>
+        <Connection>
+            <ConfigKey persist="true">[Clock],show_clock</ConfigKey>
+            <BindProperty>visible</BindProperty>
+        </Connection>
+    </WidgetGroup>
+    <!--
+    **************************************************************************************
+    CLOCK DEVICE END
+    **************************************************************************************
+    -->
+
+</Template>
