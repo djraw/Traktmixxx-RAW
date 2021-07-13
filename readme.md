@@ -55,6 +55,7 @@ TODO
 
 ## Credits
 Original RoundCorners skin by [22degrees](https://github.com/22degrees)
+
 Original Traktmixxx skin by [intialonso](https://mixxx.discourse.group/t/traktmixxx-forked-from-roundcorners/18370)
 
 ## License
