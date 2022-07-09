@@ -3,7 +3,7 @@
 
     <!--
     **************************************************************************************
-    MENUBAR DEVICE EGIN
+    MENUBAR DEVICE BEGIN
     **************************************************************************************
     -->
     <WidgetGroup>
@@ -26,16 +26,16 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-btlr</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Visuals-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Visuals-4</SetVariable>
                         <SetVariable name="control">[Visuals],show_row</SetVariable>
                         <SetVariable name="text">Visuals</SetVariable>
                     </Template>
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-bblr</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Settings-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Settings-4</SetVariable>
                         <SetVariable name="control">[Master],skin_settings</SetVariable>
                         <SetVariable name="text">Settings</SetVariable>
                     </Template>
@@ -52,16 +52,16 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Decks-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Decks-4</SetVariable>
                         <SetVariable name="control">[DeckRow1],show_row</SetVariable>
                         <SetVariable name="text">Decks 1+2</SetVariable>
                     </Template>
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Mixer-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Mixer-4</SetVariable>
                         <SetVariable name="control">[Mixer1],show_mixer</SetVariable>
                         <SetVariable name="text">Mixer 1</SetVariable>
                     </Template>
@@ -82,8 +82,8 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr</SetVariable>
-                        <SetVariable name="Size">22me,45f</SetVariable>
-                        <SetVariable name="icon">Decks-2</SetVariable>
+                        <SetVariable name="Size">120me,45f</SetVariable>
+                        <SetVariable name="icon">Decks-4</SetVariable>
                         <SetVariable name="control">[DeckRow1],show_row</SetVariable>
                         <SetVariable name="text">Decks 1+2</SetVariable>
                     </Template>
@@ -107,16 +107,16 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Decks-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Decks-4</SetVariable>
                         <SetVariable name="control">[DeckRow2],show_row</SetVariable>
                         <SetVariable name="text">Decks 3+4</SetVariable>
                     </Template>
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Mixer-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Mixer-4</SetVariable>
                         <SetVariable name="control">[Mixer2],show_mixer</SetVariable>
                         <SetVariable name="text">Mixer 2</SetVariable>
                     </Template>
@@ -137,8 +137,8 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr</SetVariable>
-                        <SetVariable name="Size">22me,45f</SetVariable>
-                        <SetVariable name="icon">Decks-2</SetVariable>
+                        <SetVariable name="Size">120me,45f</SetVariable>
+                        <SetVariable name="icon">Decks-4</SetVariable>
                         <SetVariable name="control">[DeckRow2],show_row</SetVariable>
                         <SetVariable name="text">Decks 3+4</SetVariable>
                     </Template>
@@ -162,16 +162,16 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Samplers-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Samplers-4</SetVariable>
                         <SetVariable name="control">[Samplers],show_samplers</SetVariable>
                         <SetVariable name="text">Samplers</SetVariable>
                     </Template>
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Effects-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Effects-4</SetVariable>
                         <SetVariable name="control">[EffectRack1],show</SetVariable>
                         <SetVariable name="text">FX</SetVariable>
                     </Template>
@@ -188,16 +188,16 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Main-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Main-4</SetVariable>
                         <SetVariable name="control">[Main],show_main</SetVariable>
                         <SetVariable name="text">Main</SetVariable>
                     </Template>
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Internalclock-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Internalclock-4</SetVariable>
                         <SetVariable name="control">[InternalClock],show_internalclock</SetVariable>
                         <SetVariable name="text">Int. Clock</SetVariable>
                     </Template>
@@ -214,16 +214,16 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Headphones-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Headphones-4</SetVariable>
                         <SetVariable name="control">[Headphone],show_headphone</SetVariable>
                         <SetVariable name="text">Headphones</SetVariable>
                     </Template>
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-nbr-bisected</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Clock-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Clock-4</SetVariable>
                         <SetVariable name="control">[Clock],show_clock</SetVariable>
                         <SetVariable name="text">Clock</SetVariable>
                     </Template>
@@ -240,16 +240,16 @@
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-btrr</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Vinylcontrols-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Vinylcontrols-4</SetVariable>
                         <SetVariable name="control">[VinylControl],show_vinylcontrol</SetVariable>
-                        <SetVariable name="text">Vinyl Control</SetVariable>
+                        <SetVariable name="text">Vinyl Ctrl</SetVariable>
                     </Template>
 
                     <Template src="skin:device/menubar/button.xml">
                         <SetVariable name="ObjectName">Btn-bbrr</SetVariable>
-                        <SetVariable name="Size">22me,23f</SetVariable>
-                        <SetVariable name="icon">Microphones-2</SetVariable>
+                        <SetVariable name="Size">120me,23f</SetVariable>
+                        <SetVariable name="icon">Microphones-4</SetVariable>
                         <SetVariable name="control">[Microphone],show_microphone</SetVariable>
                         <SetVariable name="text">Mic</SetVariable>
                     </Template>

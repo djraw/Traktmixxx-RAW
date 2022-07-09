@@ -1140,6 +1140,30 @@ QScrollBar::sub-page:vertical {
     background-position: center;
 }
 
+#MenuBar #Visuals-3 #Btn-btlr {
+    background-image: url(skin:button/visuals_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Visuals-3 #Btn-btlr[value="1"] {
+    background-image: url(skin:button/visuals_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Visuals-4 #Btn-btlr {
+    background-image: url(skin:button/visuals_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Visuals-4 #Btn-btlr[value="1"] {
+    background-image: url(skin:button/visuals_5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #MenuBar #Settings #Btn-bblr {
     background-image: url(skin:button/settings.svg);
     background-repeat: no-repeat;
@@ -1154,6 +1178,30 @@ QScrollBar::sub-page:vertical {
 
 #MenuBar #Settings-2 #Btn-bblr[value="1"] {
     background-image: url(skin:button/settings_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Settings-3 #Btn-bblr {
+    background-image: url(skin:button/settings_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Settings-3 #Btn-bblr[value="1"] {
+    background-image: url(skin:button/settings_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Settings-4 #Btn-bblr {
+    background-image: url(skin:button/settings_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Settings-4 #Btn-bblr[value="1"] {
+    background-image: url(skin:button/settings_5.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1176,6 +1224,30 @@ QScrollBar::sub-page:vertical {
     background-position: center;
 }
 
+#MenuBar #Decks-3 #Btn-nbr-bisected, #MenuBar #Decks-3 #Btn-nbr {
+    background-image: url(skin:button/decks_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Decks-3 #Btn-nbr-bisected, #MenuBar #Decks-3 #Btn-nbr[value="1"] {
+    background-image: url(skin:button/decks_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Decks-4 #Btn-nbr-bisected, #MenuBar #Decks-4 #Btn-nbr {
+    background-image: url(skin:button/decks_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Decks-4 #Btn-nbr-bisected, #MenuBar #Decks-4 #Btn-nbr[value="1"] {
+    background-image: url(skin:button/decks_5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #MenuBar #Mixer #Btn-nbr-bisected {
     background-image: url(skin:button/mixer.svg);
     background-repeat: no-repeat;
@@ -1190,6 +1262,30 @@ QScrollBar::sub-page:vertical {
 
 #MenuBar #Mixer-2 #Btn-nbr-bisected[value="1"] {
     background-image: url(skin:button/mixer_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Mixer-3 #Btn-nbr-bisected {
+    background-image: url(skin:button/mixer_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Mixer-3 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/mixer_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Mixer-4 #Btn-nbr-bisected {
+    background-image: url(skin:button/mixer_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Mixer-4 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/mixer_5.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1212,6 +1308,30 @@ QScrollBar::sub-page:vertical {
     background-position: center;
 }
 
+#MenuBar #Samplers-3 #Btn-nbr-bisected {
+    background-image: url(skin:button/samplers_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Samplers-3 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/samplers_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Samplers-4 #Btn-nbr-bisected {
+    background-image: url(skin:button/samplers_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Samplers-4 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/samplers_5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #MenuBar #Effects #Btn-nbr-bisected {
     background-image: url(skin:button/effects.svg);
     background-repeat: no-repeat;
@@ -1226,6 +1346,30 @@ QScrollBar::sub-page:vertical {
 
 #MenuBar #Effects-2 #Btn-nbr-bisected[value="1"] {
     background-image: url(skin:button/effects_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Effects-3 #Btn-nbr-bisected {
+    background-image: url(skin:button/effects_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Effects-3 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/effects_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Effects-4 #Btn-nbr-bisected {
+    background-image: url(skin:button/effects_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Effects-4 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/effects_5.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1248,6 +1392,30 @@ QScrollBar::sub-page:vertical {
     background-position: center;
 }
 
+#MenuBar #Main-3 #Btn-nbr-bisected {
+    background-image: url(skin:button/main_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Main-3 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/main_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Main-4 #Btn-nbr-bisected {
+    background-image: url(skin:button/main_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Main-4 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/main_5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #MenuBar #Internalclock #Btn-nbr-bisected {
     background-image: url(skin:button/internalclock.svg);
     background-repeat: no-repeat;
@@ -1262,6 +1430,30 @@ QScrollBar::sub-page:vertical {
 
 #MenuBar #Internalclock-2 #Btn-nbr-bisected[value="1"] {
     background-image: url(skin:button/internalclock_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Internalclock-3 #Btn-nbr-bisected {
+    background-image: url(skin:button/internalclock_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Internalclock-3 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/internalclock_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Internalclock-4 #Btn-nbr-bisected {
+    background-image: url(skin:button/internalclock_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Internalclock-4 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/internalclock_5.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1284,6 +1476,30 @@ QScrollBar::sub-page:vertical {
     background-position: center;
 }
 
+#MenuBar #Headphones-3 #Btn-nbr-bisected {
+    background-image: url(skin:button/headphones_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Headphones-3 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/headphones_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Headphones-4 #Btn-nbr-bisected {
+    background-image: url(skin:button/headphones_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Headphones-4 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/headphones_5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #MenuBar #Clock #Btn-nbr-bisected {
     background-image: url(skin:button/clock.svg);
     background-repeat: no-repeat;
@@ -1298,6 +1514,30 @@ QScrollBar::sub-page:vertical {
 
 #MenuBar #Clock-2 #Btn-nbr-bisected[value="1"] {
     background-image: url(skin:button/clock_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Clock-3 #Btn-nbr-bisected {
+    background-image: url(skin:button/clock_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Clock-3 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/clock_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Clock-4 #Btn-nbr-bisected {
+    background-image: url(skin:button/clock_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Clock-4 #Btn-nbr-bisected[value="1"] {
+    background-image: url(skin:button/clock_5.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1320,6 +1560,30 @@ QScrollBar::sub-page:vertical {
     background-position: center;
 }
 
+#MenuBar #Vinylcontrols-3 #Btn-btrr {
+    background-image: url(skin:button/vinylcontrols_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Vinylcontrols-3 #Btn-btrr[value="1"] {
+    background-image: url(skin:button/vinylcontrols_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Vinylcontrols-4 #Btn-btrr {
+    background-image: url(skin:button/vinylcontrols_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Vinylcontrols-4 #Btn-btrr[value="1"] {
+    background-image: url(skin:button/vinylcontrols_5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #MenuBar #Microphones #Btn-bbrr {
     background-image: url(skin:button/microphones.svg);
     background-repeat: no-repeat;
@@ -1334,6 +1598,30 @@ QScrollBar::sub-page:vertical {
 
 #MenuBar #Microphones-2 #Btn-bbrr[value="1"] {
     background-image: url(skin:button/microphones_1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Microphones-3 #Btn-bbrr {
+    background-image: url(skin:button/microphones_4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Microphones-3 #Btn-bbrr[value="1"] {
+    background-image: url(skin:button/microphones_3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Microphones-4 #Btn-bbrr {
+    background-image: url(skin:button/microphones_6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MenuBar #Microphones-4 #Btn-bbrr[value="1"] {
+    background-image: url(skin:button/microphones_5.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
