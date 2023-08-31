@@ -1,14 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 116 116" style="enable-background:new 0 0 116 116;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 116 116"
+   xml:space="preserve"
+   sodipodi:docname="knob_deck1_1_vinyl.svg"
+   style="enable-background:new 0 0 116 116;"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs222" /><sodipodi:namedview
+   id="namedview220"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="2.0344828"
+   inkscape:cx="-55.050847"
+   inkscape:cy="23.838983"
+   inkscape:window-width="2560"
+   inkscape:window-height="1387"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_1" />
+<style
+   type="text/css"
+   id="style211">
 	.st0{fill:#3DABD0;}
 	.st1{fill:#020202;}
 </style>
-<path class="st0" d="M57.6,36.7c-0.4,0-0.8-0.4-0.8-0.8V18.1c0-0.4,0.4-0.8,0.8-0.8h0.9c0.4,0,0.8,0.4,0.8,0.8v17.8
-	c0,0.4-0.4,0.8-0.8,0.8H57.6z"/>
-<path class="st1" d="M58.5,17.5c0.3,0,0.6,0.3,0.6,0.6v17.8c0,0.3-0.3,0.6-0.6,0.6h-0.9c-0.3,0-0.6-0.3-0.6-0.6V18.1
-	c0.1-0.3,0.4-0.6,0.7-0.6H58.5 M58.5,17h-0.9c-0.6,0-1.1,0.5-1.1,1.1v17.8c0,0.6,0.5,1.1,1.1,1.1h0.9c0.6,0,1.1-0.5,1.1-1.1V18.1
-	C59.5,17.5,59,17,58.5,17L58.5,17z"/>
+<g
+   id="g217"
+   transform="matrix(1,0,0,1.7127119,0,-26.370339)">
+	<path
+   class="st0"
+   d="m 57.6,36.7 c -0.4,0 -0.8,-0.4 -0.8,-0.8 V 18.1 c 0,-0.4 0.4,-0.8 0.8,-0.8 h 0.9 c 0.4,0 0.8,0.4 0.8,0.8 v 17.8 c 0,0.4 -0.4,0.8 -0.8,0.8 z"
+   id="path213" />
+	<path
+   class="st1"
+   d="m 58.5,17.5 c 0.3,0 0.6,0.3 0.6,0.6 v 17.8 c 0,0.3 -0.3,0.6 -0.6,0.6 H 57.6 C 57.3,36.5 57,36.2 57,35.9 V 18.1 c 0.1,-0.3 0.4,-0.6 0.7,-0.6 h 0.8 m 0,-0.5 h -0.9 c -0.6,0 -1.1,0.5 -1.1,1.1 v 17.8 c 0,0.6 0.5,1.1 1.1,1.1 h 0.9 c 0.6,0 1.1,-0.5 1.1,-1.1 V 18.1 C 59.5,17.5 59,17 58.5,17 Z"
+   id="path215" />
+</g>
 </svg>
